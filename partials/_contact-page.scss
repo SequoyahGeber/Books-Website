@@ -1,0 +1,81 @@
+body#contact {
+    background-color: $background-color;
+    margin: auto;
+    color: $text-color;
+
+    @media only screen and (min-width: 1100px) {
+        width: 1100px;
+
+        textarea {
+            width: 600px !important;
+        }
+    }
+
+
+
+    header {
+        padding: 3rem 0 1rem 0;
+
+
+
+        h1 {
+            font-size: 4rem;
+            padding: 0 0 1rem 0;
+            margin-left: 0.5rem;
+
+        }
+    }
+
+    main {
+        background-color: $header-bc;
+        border-radius: 25px;
+
+        margin: 0 auto;
+        padding: 1rem;
+
+        form {
+            margin: 1rem;
+            box-sizing: border-box;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-top: 1rem;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 0.5rem;
+
+        }
+
+        textarea {
+            width: 400px;
+            height: 150px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: $text-color;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            display: block;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+
+        }
+
+    }
+
+
+
+
+}

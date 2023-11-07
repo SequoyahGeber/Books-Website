@@ -1,0 +1,63 @@
+body#sources {
+    background-color: $background-color;
+    margin: auto;
+    color: $text-color;
+
+    @media only screen and (min-width: 1100px) {
+        width: 1100px;
+    }
+
+
+
+    header {
+        padding: 3rem 0 1rem 0;
+
+
+
+        h1 {
+            font-size: 4rem;
+            padding: 0 0 1rem 0;
+            margin-left: 0.5rem;
+
+        }
+    }
+
+    main {
+
+        margin-bottom: 2rem;
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 100%;
+            background-color: $header-bc;
+            border-radius: 25px;
+
+            th,
+            td {
+                padding: 1rem;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+                font-size: 1.5rem;
+
+                img {
+                    max-width: 150px;
+                }
+
+
+
+                a {
+                    text-decoration: none;
+                    font-size: 1.5rem;
+                }
+
+
+
+                a:hover {
+                    text-decoration: underline;
+                }
+
+            }
+        }
+    }
+}

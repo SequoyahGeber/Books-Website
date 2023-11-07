@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+html {
+    line-height: 1.5;
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+    color: $text-color;
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 2rem;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+a,
+p {
+    color: $text-color;
+
+}
+
+span.bold {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+// Home Page ==============================================================================>
+
+body#home-page {
+    main {
+        article {
+            p {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+
+// MAIN ARTICLE ==============================================================================>
+#main-article {
+    p {
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+
+    section p {
+        text-indent: 1rem;
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,31 @@
+body#about {
+    background-color: $background-color;
+    margin: auto;
+    color: $text-color;
+    font-size: 1.2rem;
+
+    @media only screen and (min-width: 1100px) {
+        width: 1100px;
+    }
+
+
+
+    header {
+        padding: 3rem 0 1rem 0;
+
+
+
+        h1 {
+            font-size: 4rem;
+            padding: 0 0 1rem 0;
+            margin-left: 0.5rem;
+
+        }
+    }
+
+    main {
+        background-color: $header-bc;
+        padding: 2rem;
+        border-radius: 25px;
+    }
+}
